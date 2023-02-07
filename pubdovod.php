@@ -42,7 +42,7 @@ echo '<video>
       <actor><![CDATA[]]></actor>
       <director><![CDATA[]]></director>
       <dl>
-        <dd flag="1"><![CDATA[PLAY$'.$yourdomain."/pubdo.php?url=".$value['link'].']]></dd>
+        <dd flag=""><![CDATA[PLAY$'.$yourdomain."/pubdo.php?url=".$value['link'].']]></dd>
       </dl>
       <des><![CDATA['.getNeedBetween($value['title'],"<br>","end").']]></des>
     </video>';
