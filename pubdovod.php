@@ -15,7 +15,7 @@ $kw=substr($kw,($st+$lengthma),($ed-$st-$lengthma));
 return $kw;
 }
 
-$yourdomain = '';
+$yourdomain = '';//domain to pubdo.php
 $page = urldecode($_REQUEST["pg"]);
 $url = 'https://publicdomainmovie.net/?page='.$page;
 $rules = ['link' => ['.views-field-nothing-1>.field-content>.cover>a','href'],'title' => ['.views-field-nothing-1>.field-content>.cover>a>.info','html'],'img' => ['.views-field-nothing-1>.field-content>.cover>a>.cover_image>div>img','src']
